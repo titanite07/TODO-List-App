@@ -1,0 +1,44 @@
+.task {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #222222;
+    padding: 2rem;
+    border-radius: 5px;
+    gap: 2rem;
+}
+
+.checkContainer {
+    width: 2rem;
+    height: 2rem;
+    background-color: #222222;
+    border: #fff solid 2px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkIcon {
+    color: #00f408; /* Color of the tick mark icon */
+    font-size: 1.5rem; /* Adjust size of the icon */
+}
+
+.task p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #fff;
+    margin-right: auto;
+}
+
+p.taskCompleted {
+    color: #6d6d6d;
+    text-decoration: line-through;
+}
+
+.delBtn {
+    background: none;
+    border: none;
+    color: #dadada;
+}
